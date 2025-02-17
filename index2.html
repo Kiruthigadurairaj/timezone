@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeZone API</title>
+    <link rel="stylesheet" href="style2.css">
+    <script defer src="script2.js"></script>
+</head>
+<body>
+    <section>
+        <h2>TimeZone API</h2>
+        <h3>Your Current Time Zone</h3>
+        <div class="timezone-box" id="current-timezone">
+            <p><strong>Name Of Time Zone :</strong> <span id="timezone-name"></span></p>
+            <p><strong>Lat:</strong> <span id="latitude"></span> <strong>Long:</strong> <span id="longitude"></span></p>
+            <p><strong>Offset STD:</strong> <span id="offset-std"></span></p>
+            <p><strong>Offset STD Seconds:</strong> <span id="offset-std-seconds"></span></p>
+            <p><strong>Offset DST:</strong> <span id="offset-dst"></span></p>
+            <p><strong>Offset DST Seconds:</strong> <span id="offset-dst-seconds"></span></p>
+            <p><strong>Country:</strong> <span id="country"></span></p>
+            <p><strong>Postcode:</strong> <span id="postcode"></span></p>
+            <p><strong>City:</strong> <span id="city"></span></p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Enter Address</h3>
+        <input type="text" id="address" placeholder="Enter Address">
+        <button id="submit-btn">Submit</button>
+    </section>
+
+    <section>
+        <h3>Your result</h3>
+        <div class="timezone-box" id="address-timezone"></div>
+    </section>
+</body>
+</html>
